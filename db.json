@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "name": "Yevhen Tsilenko",
+      "number": "1223445455",
+      "id": 1
+    },
+    {
+      "name": "Стах",
+      "number": "1243141",
+      "id": 2
+    },
+    {
+      "name": "Евгений",
+      "number": "1231412",
+      "id": 3
+    }
+  ]
+}

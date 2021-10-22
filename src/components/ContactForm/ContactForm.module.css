@@ -1,0 +1,21 @@
+.form {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #000000;
+}
+
+.label {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.form_input {
+    display: block;
+    width: 300px;
+    margin: 10px 0;
+}
