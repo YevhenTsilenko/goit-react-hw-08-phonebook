@@ -60,7 +60,7 @@ function ContactForm({ contacts, onSubmit, isLoading }) {
                                 setNumber(e.currentTarget.value);
                             }}/>
                     </label>
-                    <Button type="submit" btnName="Add contact" disabled={!(name && number)} className={styles.form_btn} />
+                    <Button type="submit" btnName="Add contact" disabled={!(name && number)} />
                 </form>
                 {isLoading && <Loader />}
             </>

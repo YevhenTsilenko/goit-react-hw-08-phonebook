@@ -1,5 +1,5 @@
 h1, h2 {
-    margin-left: 20px;
+    font-size: 40px;
 }
 
 ul {
@@ -7,5 +7,12 @@ ul {
 }
 
 .App {
+    height: 100vh;
+    width: 90vw;
+    margin: 0 auto;
     text-align: center;
+    background-image: linear-gradient(transparent 50%, transparent, #fff),
+        url(./images/phonebook.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }

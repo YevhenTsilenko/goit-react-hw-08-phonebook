@@ -10,7 +10,7 @@ const UserMenu = () => {
     return (
         <div className={styles.UserMenu}>
 
-            <p className={styles.userGreating}>Hi, {name}. It's your private office.</p>
+            <p className={styles.userGreating}>{name}, it's your private office.</p>
             <button 
                 className={styles.logOutBtn}
                 onClick={() => dispatch(logOut())}

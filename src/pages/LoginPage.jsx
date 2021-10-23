@@ -51,7 +51,7 @@ const Login = () => {
 
     return (
         <div className={styles.authFormWrapper}>
-            <h2 className={styles.authFormTitle}>Login form</h2>
+            <h2 className={styles.authFormTitle}>Login</h2>
             <Formik
             initialValues={INITIAL_VALUES}
             validate={validate}
@@ -116,4 +116,4 @@ const Login = () => {
     );
 };
 
-export { Login };
+export default Login;

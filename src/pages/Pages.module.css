@@ -1,0 +1,32 @@
+.authFormWrapper {
+    margin: 0 auto;
+    width: 50%;
+    padding: 30px;
+}
+
+.authFormTitle {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.formText {
+    font-size: 30px;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.textLink {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.textLink:hover,
+.textLink:focus {
+    color:rgb(255, 135, 37);
+}
+
+

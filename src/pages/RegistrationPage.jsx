@@ -9,7 +9,7 @@ import TextField from '@material-ui/core/TextField';
 import VisibilityIcon from '@material-ui/icons/Visibility';
 import VisibilityOffIcon from '@material-ui/icons/VisibilityOff';
 import Alert from '@mui/material/Alert';
-import s from './Pages.module.css';
+import styles from './Pages.module.css';
 
 
 const INITIAL_VALUES = {
@@ -59,16 +59,17 @@ const Registration = () => {
     };
 
     return (
-        <div className={s.authForm}>
-            <h2 className={s.authFormTitle}>Registration</h2>
+        <div className={styles.authFormWrapper}>
+            <h2 className={styles.authFormTitle}>Registration</h2>
             <Formik
             initialValues={INITIAL_VALUES}
             validate={validate}
             onSubmit={handleSubmit}
             >
             {({ isSubmitting, touched, errors, values, handleBlur, handleChange, handleSubmit }) => (
-                <form onSubmit={handleSubmit} className={s.form}>
+                <form onSubmit={handleSubmit} className={styles.authForm}>
                     <TextField
+                    className={styles.formText}
                     fullWidth
                     id="name"
                     name="name"
@@ -137,4 +138,4 @@ const Registration = () => {
     )
 };
 
-export { Registration };
+export default Registration;

@@ -10,10 +10,10 @@ const HomePage = () => {
     return (
         <div className={styles.homePageWrapper}>
             {isLoggedIn ? 
-            <p>
+            <p className={styles.text}>
                 You can use your <Link to="/contacts" className={styles.textLink}>Contacts</Link>
             </p> : 
-            <p>
+            <p className={styles.text}>
                 Welcome to our site. Please <Link to="/register" className={styles.textLink}>registrate</Link> your account 
                 or <Link to="/login" className={styles.textLink}>log in</Link> if you done it yet.
             </p>
@@ -23,5 +23,5 @@ const HomePage = () => {
     )
 }
 
-export { HomePage };
+export default HomePage;
  

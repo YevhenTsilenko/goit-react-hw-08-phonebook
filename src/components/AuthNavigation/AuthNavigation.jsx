@@ -8,16 +8,16 @@ function AuthNavigation() {
       <NavLink
         to="/register"
         exact
-        style={styles.link}
-        activeStyle={styles.activeLink}
+        className={styles.navLink}
+        activeClassName={styles.activeNAvLink}
       >
         Signup
       </NavLink>
       <NavLink
         to="/login"
         exact
-        style={styles.link}
-        activeStyle={styles.activeLink}
+        className={styles.navLink}
+        activeClassName={styles.activeNavLink}
       >
         Login
       </NavLink>
